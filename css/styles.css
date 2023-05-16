@@ -601,7 +601,7 @@ input[type='checkbox'] {
 .header .services {
 	padding-top: 4.5rem;
 	padding-bottom: 0.375rem;
-	background: linear-gradient(to bottom right, #4b00d7, #fa4c50);
+	background: linear-gradient(to bottom right, #05017f, #2a1919);
 }
 
 .header .card {
@@ -924,6 +924,8 @@ input[type='checkbox'] {
 .basic-6 {
 	padding-top: 5rem;
 	padding-bottom: 10rem;
+	position: relative;
+	top: 50px;
 }
 
 .basic-6 .text-container {
