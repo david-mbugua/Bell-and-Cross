@@ -1,325 +1,613 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        <!-- SEO Meta Tags -->
-        <meta name="description" content="Your description">
-        <meta name="author" content="Your name">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-        <meta property="og:site_name" content="" /> <!-- website name -->
-        <meta property="og:site" content="" /> <!-- website link -->
-        <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-        <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-        <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description" />
+    <meta name="author" content="Your name" />
 
-        <!-- Webpage Title -->
-        <title>Article Details</title>
-        
-        <!-- Styles -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/fontawesome-all.css" rel="stylesheet">
-        <link href="css/swiper.css" rel="stylesheet">
-        <link href="css/magnific-popup.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-        
-        <!-- Favicon  -->
-        <link rel="icon" href="images/favicon.png">
-    </head>
-    <body data-spy="scroll" data-target=".fixed-top">
-        
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-            <div class="container">
-                
-                <!-- Image Logo -->
-                <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>  
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+    <meta property="og:site_name" content="" />
+    <!-- website name -->
+    <meta property="og:site" content="" />
+    <!-- website link -->
+    <meta property="og:title" content="" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" />
+    <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- to have large image post format in Twitter -->
 
-                <!-- Text Logo - Use this if you don't have a graphic logo -->
-                <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Name</a> -->
+    <!-- Webpage Title -->
+    <title>Article Details</title>
 
-                <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <!-- Styles -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
 
-                <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="index.html#header">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="index.html#details">Details</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="index.html#strengths">Strengths</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="index.html#about">About</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item page-scroll" href="article.html">Article Details</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="index.html#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <span class="nav-item social-icons">
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </span>
-                </div> <!-- end of navbar-collapse -->
-            </div> <!-- end of container -->
-        </nav> <!-- end of navbar -->
-        <!-- end of navigation -->
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+  <body data-spy="scroll" data-target=".fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"
+          ><img src="images/logo.svg" alt="alternative"
+        /></a>
 
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Name</a> -->
 
-        <!-- Header -->
-        <header class="ex-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-10 offset-xl-1">
-                        <h1>Article Details</h1>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </header> <!-- end of ex-header -->
-        <!-- end of header -->
+        <button
+          class="navbar-toggler p-0 border-0"
+          type="button"
+          data-toggle="offcanvas"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div
+          class="navbar-collapse offcanvas-collapse"
+          id="navbarsExampleDefault"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#header"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#details"
+                >services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#strengths"
+                >Strengths</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Drop</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item page-scroll" href="article.html"
+                  >Article Details</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item page-scroll" href="terms.html"
+                  >Terms Conditions</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item page-scroll" href="privacy.html"
+                  >Privacy Policy</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <span class="nav-item social-icons">
+            <span class="fa-stack">
+              <a href="#your-link">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="#your-link">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+        <!-- end of navbar-collapse -->
+      </div>
+      <!-- end of container -->
+    </nav>
+    <!-- end of navbar -->
+    <!-- end of navigation -->
 
-        <!-- Basic -->
-        <div class="ex-basic-1 pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <img class="img-fluid mt-5 mb-3" src="images/article-details-large.jpg" alt="alternative">
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of ex-basic-1 -->
-        <!-- end of basic -->
+    <!-- Header -->
+    <header class="ex-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 offset-xl-1">
+            <h1>ICT Enterprise Technology Domains</h1>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </header>
+    <!-- end of ex-header -->
+    <!-- end of header -->
 
+    <!-- Basic -->
+    <div class="ex-basic-1 pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <img
+              class="img-fluid mt-5 mb-3"
+              src="images/article-details-large.jpg"
+              alt="alternative"
+            />
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of ex-basic-1 -->
+    <!-- end of basic -->
 
-        <!-- Basic -->
-        <div class="ex-basic-1 pt-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-10 offset-xl-1">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Senectus et netus et malesuada fames. Malesuada nunc vel risus commodo. Eget egestas purus viverra accumsan in nisl nisi. Pellentesque elit ullamcorper dignissim cras tincidunt elementum nisi quis lobortis cenas.</p>
-                        <p class="mb-5">Et leo duis ut diam quam nulla. Purus in mollis nunc sed id semper. Aenean euismod elementum nisi quis. Mauris a diam maecenas sed enim. Amet commodo nulla facilisi nullam vehicula ipsum a. Morbi tristique senectus et netus et. Lobortis feugiat vivamus at augue eget arcu elementum nisi quis. Amet aliquam id diam mae.</p>
+    <!-- Basic -->
+    <div class="ex-basic-1 pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 offset-xl-1">
+            <p>
+              Bell & Cross Communications has reviewed the market and identified
+              some technology domain opportunities which we are already focusing
+              on:
+            </p>
+            <ul>
+              <li>Enterprise Systems and Cloud</li>
+              <li>Enterprise Networks Infrastructure</li>
+              <li>Databases and Applications</li>
+              <li>Security</li>
+              <li>Services Portfolio</li>
+            </ul>
+            <p>
+              Some of these are existing areas of strength for Bell & Cross,
+              areas where we are already key participants and are
+              well-positioned to accelerate even further ahead
+            </p>
 
-                        <h2 class="mb-3">Ultricies mi eget nisl purus in mollis</h2>
-                        <p>In dictum non consectetur a erat nam. Et tortor consequat id porta nibh venenatis. Rhoncus mattis rhoncus urna neque viverra. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ullamcorper dignissim cras tincidunt magna aliqua.</p>
-                        <p class="mb-4">Malesuada nunc vel risus commodo. Eget egestas purus viverra accumsan in nisl nisi. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Et leo duis ut diam quam nulla. Purus in mollis nunc sed id semper. Aenean euismod elementum nisi quis. Mauris a diam maecenas ullamcorper dignissim cras tincidunt sed enim Amet commodo.</p>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of ex-basic-1 -->
-        <!-- end of basic -->
+            <h4 class="mb-3">Enterprise Systems and Cloud</h4>
+            <p>
+              Bell & Cross Communications is at the forefront of Enterprise and
+              Cloud technology and consumption model changes. Our offerings
+              include:
+            </p>
+            <ul>
+              <li>Virtualisation and Converged Infrastructure</li>
+              <li>Storage and Data Management</li>
+              <li>Cloud Enablement Services</li>
+              <li>Facilities and Relocation</li>
+            </ul>
 
+            <h4 class="mb-3">Enterprise Networks Infrastructure</h4>
+            <p>
+              Bell & Cross Communications has vast experience in building
+              networks as the platform for all communication and IT. Today, we
+              offer technology solutions and services in the following areas:
+            </p>
+            <ul>
+              <li>SDWAN - Routing & Switching</li>
+              <li>Wireless and Mobility</li>
+              <li>Data Centre Networking</li>
+              <li>Performance Optimisation</li>
+            </ul>
+            <p>
+              Bell & Cross Communications supports and manage clients networking
+              infrastructure on a 24/7 basis and designs, built, and manage IP
+              networks to enable users to connect to their organisations’
+              networks.
+            </p>
 
-        <!-- Cards -->
-        <div class="ex-cards-1 pt-3 pb-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        
-                        <!-- Card -->
-                        <div class="card">
-                            <ul class="list-unstyled">
-                                <li class="media">
-                                    <span class="fa-stack">
-                                        <span class="fas fa-circle fa-stack-2x"></span>
-                                        <span class="fa-stack-1x">1</span>
-                                    </span>
-                                    <div class="media-body">
-                                        <h5>Vulputae Mi Sit Amet</h5>
-                                        <p>Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Mauris pharetra et ultrices neque ornare</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div> <!-- end of card -->
-                        <!-- end of card -->
+            <h4 class="mb-3">Security</h4>
+            <p>
+              Bell & Cross Communications is amongst the renowned security
+              systems integrator companies in Kenya. Our offerings include:
+            </p>
+            <ul>
+              <li>NAC / Clear pass</li>
+              <li>Governance, Risk and Compliance</li>
+              <li>Data Leakage Prevention</li>
+              <li>Security Event Information Management</li>
+              <li>Managed Security Services</li>
+            </ul>
 
-                        <!-- Card -->
-                        <div class="card">
-                            <ul class="list-unstyled">
-                                <li class="media">
-                                    <span class="fa-stack">
-                                        <span class="fas fa-circle fa-stack-2x"></span>
-                                        <span class="fa-stack-1x">2</span>
-                                    </span>
-                                    <div class="media-body">
-                                        <h5>Sed Viverra Ipsum</h5>
-                                        <p>Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Mauris pharetra et ultrices neque ornare</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div> <!-- end of card -->
-                        <!-- end of card -->
+            <h4 class="mb-3">Services Portfolio</h4>
+            <p>
+              Across each of our areas of expertise, Bell & Cross offers a full
+              lifecycle of services that assist our clients to plan, build,
+              support, and manage their IT infrastructures. These include:
+            </p>
+            <ul>
+              <li>Systems Integration</li>
+              <li>IT Uptime support and Managed services</li>
+              <li>IT-as-a-service (ITaaS)</li>
+            </ul>
 
-                        <!-- Card -->
-                        <div class="card">
-                            <ul class="list-unstyled">
-                                <li class="media">
-                                    <span class="fa-stack">
-                                        <span class="fas fa-circle fa-stack-2x"></span>
-                                        <span class="fa-stack-1x">3</span>
-                                    </span>
-                                    <div class="media-body">
-                                        <h5>Mauris pharetra et</h5>
-                                        <p>Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Mauris pharetra et ultrices neque ornare</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div> <!-- end of card -->
-                        <!-- end of card -->
+            <h4 class="mb-3">System Integration Services</h4>
+            <p>
+              Today’s IT leaders need to support business objectives by
+              optimising and transforming IT services. This means managing your
+              IT investments and operations in ways that drive discernible
+              business outcomes through cost optimisation, and increased speed
+              and agility. You are also under pressure to maintain an
+              increasingly complex IT environment and ensure reliable access to
+              the ICT tools and processes your business requires in order to
+              stay competitive.
+              <br />
+              Bell & Cross offer a lifecycle of services for technology,
+              including:
+            </p>
+            <ul>
+              <li>Consulting and Assessment Services</li>
+              <li>Professional Services</li>
+              <li>Support Services & Managed Services</li>
+            </ul>
 
-                    </div> <!-- end of col -->   
-                </div> <!-- end of row -->   
-            </div> <!-- end of container -->   
-        </div> <!-- end of ex-cards-1 -->
-        <!-- end of cards -->
+            <h4 class="mb-3">IT Managed Services</h4>
+            <p>
+              IT teams are under pressure to deliver new services to meet
+              ever-growing demands from the business ... and find ways to reduce
+              the cost of providing those IT services. Perhaps you’re rethinking
+              your sourcing approach and considering a multi-sourcing model that
+              will allow you to engage high-performing providers while still
+              retaining control of your ICT strategy. Through our IT outsourcing
+              business, we support our clients through managed services to
+              enable them to concentrate on their core business. We have
+              developed a standardised set of ITIL-based processes, procedures,
+              and work instructions that enable consistent delivery of services
+              across all regions and countries that we operate in.
+            </p>
 
+            <h4 class="mb-3">IT-as-a-service</h4>
+            <p>
+              The ability to consume IT as a service is unleashing new
+              possibilities for buyers of ICT. Cloud computing provides a means
+              to meet the increasing technology needs of your business. It can
+              reduce the costs and time required to deploy and support IT
+              infrastructure and lower the risk. Gone is the need for large
+              capex outlays to take new products and services to market. Now you
+              can align your consumption of technology more tightly with demand.
+              However, the cloud is not without its challenges: security,
+              compliance, integration, global coverage, and internal readiness
+              must be taken into account. That’s where choosing the right cloud
+              provider makes all the difference. Our teams are familiar with the
+              complexities of the cloud and will work with you to understand
+              your business ambitions and where the opportunities lie to
+              transform your business, for example, by using an as-a-service
+              approach to improve your customers’ lives, tap into completely new
+              revenue streams, or even revolutionise your business model.
+            </p>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of ex-basic-1 -->
+    <!-- end of basic -->
 
-        <!-- Basic -->
-        <div class="ex-basic-1 pt-3 pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-10 offset-xl-1">
-                        <p class="mb-5">Duis ultricies lacus sed turpis tincidunt id aliquet risus. Vulputate mi sit amet mauris. Tempor orci eu lobortis elementum. Vel eros donec ac odio tempor orci dapibus ultrices in. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Ullamcorper morbi tincidunt ornare massa consectetur adipiscing elit lorem.</p>
-                        
-                        <h2 class="mb-4">Eget lorem dolor sed viverra ipsum nunc</h2>
-                        <img class="img-fluid mb-5" src="images/article-details-small.jpg" alt="alternative">
-                        <p>Cras semper auctor neque vitae tempus quam pellentesque nec nam. Ullamcorper morbi tincidunt ornare massa. Consectetur adipiscing elit duis tristique sollicitudin. Sodales ut etiam sit amet nisl purus in. Mauris ultrices eros in cursus turpis massa. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat.</p>
-                        <p class="mb-5">Purus gravida quis blandit turpis cursus in hac. Ut porttitor leo a diam sollicitudin tempor id eu. Magnis dis parturient montes nascetur ridiculus mus. Eget nunc lobortis mattis aliquam. Porta lorem mollis aliquam ut. Habitant morbi tristique senectus et netus et malesuada. Velit egestas dui id ornare arcu arcu felis bibendum ut.</p>
-                        <div class="text-box mb-5">
-                            <h3>Morbi quis commodo odio aenean sed adipiscing di</h3>
-                            <p>In nulla posuere sollicitudin aliquam. Purus in mollis nunc sed id semper. Viverra adipiscing at in tellus integer feugiat. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Nullam eget felis eget nunc lobortis mattis aliquam. Diam in arcu cursus euismod quis viverra. Odio eu feugiat pretium nibh ipsum. Curabitur vitae nunc sed velit dignissim sodales ut. Quam pellentesque nec nam</p>
-                        </div> <!-- end of text-box -->
-                        <p class="mb-4">Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Arcu odio ut sem nulla pharetra diam sit amet. Laoreet suspendisse interdum consectetur libero id. Aliquet lectus proin nibh nisl condimentum id venenatis. Nec feugiat nisl pretium fusce id velit ut tortor. Justo laoreet sit amet cursus sit amet dictum nulla at volutpat.</p>
-                        <ul class="list-unstyled li-space-lg mb-5">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><strong>In nulla pos</strong> quam pellentesque nece nam aliquam semr elit ut aliquam purus sit amet lorem ipsum</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><strong>Uere solliudin aliqu</strong> luctus venenatis lectus magna phasellus faucibus scelerisque eleifend donec pretium</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><strong>Nullam eget felis</strong> arcu odio ut sem nulla pharetra diam sit amet laoreet suspendisse interdum cons</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><strong>Curabitur vitae</strong> id venenatis nec feugiat nisl pretium fusce id velit ut tortor justo laoreet sit amet</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><strong>Sedro velit</strong> donec massa sapien faucibus et molestie. Arcu non odio euismod lacinia at quis</div>
-                            </li>
-                        </ul>
+    <!-- Cards -->
+    <div class="ex-cards-1 pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Card -->
+            <div class="card">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <span class="fa-stack">
+                    <span class="fas fa-circle fa-stack-2x"></span>
+                    <span class="fa-stack-1x">1</span>
+                  </span>
+                  <div class="media-body">
+                    <h5>Vulputae Mi Sit Amet</h5>
+                    <p>
+                      Eget lorem dolor sed viverra ipsum nunc aliquet bibendum
+                      enim. Mauris pharetra et ultrices neque ornare
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- end of card -->
+            <!-- end of card -->
 
-                        <a class="btn-solid-reg mb-5" href="index.html#contact">Contact Us</a>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of ex-basic-1 -->
-        <!-- end of basic -->
+            <!-- Card -->
+            <div class="card">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <span class="fa-stack">
+                    <span class="fas fa-circle fa-stack-2x"></span>
+                    <span class="fa-stack-1x">2</span>
+                  </span>
+                  <div class="media-body">
+                    <h5>Sed Viverra Ipsum</h5>
+                    <p>
+                      Eget lorem dolor sed viverra ipsum nunc aliquet bibendum
+                      enim. Mauris pharetra et ultrices neque ornare
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- end of card -->
+            <!-- end of card -->
 
+            <!-- Card -->
+            <div class="card">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <span class="fa-stack">
+                    <span class="fas fa-circle fa-stack-2x"></span>
+                    <span class="fa-stack-1x">3</span>
+                  </span>
+                  <div class="media-body">
+                    <h5>Mauris pharetra et</h5>
+                    <p>
+                      Eget lorem dolor sed viverra ipsum nunc aliquet bibendum
+                      enim. Mauris pharetra et ultrices neque ornare
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- end of card -->
+            <!-- end of card -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of ex-cards-1 -->
+    <!-- end of cards -->
 
-        <!-- Footer -->
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="footer-col first">
-                            <h6>Lorem Ipsum</h6>
-                            <p class="p-small">Nibh ipsum consequat pharetra massa massa ultricies mi. Orci eu lobortis elementum nibh tellus molestie. Sit amet aliquam id diam maecenas</p>
-                        </div> <!-- end of footer-col -->
-                        <div class="footer-col second">
-                            <h6>Links</h6>
-                            <ul class="list-unstyled li-space-lg p-small">
-                                <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                                <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
-                                <li>Menu: <a class="page-scroll" href="#header">Home</a>, <a class="page-scroll" href="#details">Details</a>, <a class="page-scroll" href="#strengths">Strengths</a>, <a class="page-scroll" href="#contact">Contact</a></li>
-                            </ul>
-                        </div> <!-- end of footer-col -->
-                        <div class="footer-col third">
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-instagram fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <p class="p-small">Nunc consequat interdum varius sit <a href="mailto:contact@site.com"><strong>contact@site.com</strong></a></p>
-                        </div> <!-- end of footer-col -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of footer -->  
-        <!-- end of footer -->
+    <!-- Basic -->
+    <div class="ex-basic-1 pt-3 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 offset-xl-1">
+            <p class="mb-5">
+              Duis ultricies lacus sed turpis tincidunt id aliquet risus.
+              Vulputate mi sit amet mauris. Tempor orci eu lobortis elementum.
+              Vel eros donec ac odio tempor orci dapibus ultrices in. Cras
+              semper auctor neque vitae tempus quam pellentesque nec nam.
+              Ullamcorper morbi tincidunt ornare massa consectetur adipiscing
+              elit lorem.
+            </p>
 
+            <h2 class="mb-4">Eget lorem dolor sed viverra ipsum nunc</h2>
+            <img
+              class="img-fluid mb-5"
+              src="images/article-details-small.jpg"
+              alt="alternative"
+            />
+            <p>
+              Cras semper auctor neque vitae tempus quam pellentesque nec nam.
+              Ullamcorper morbi tincidunt ornare massa. Consectetur adipiscing
+              elit duis tristique sollicitudin. Sodales ut etiam sit amet nisl
+              purus in. Mauris ultrices eros in cursus turpis massa. Consectetur
+              lorem donec massa sapien faucibus et molestie ac feugiat.
+            </p>
+            <p class="mb-5">
+              Purus gravida quis blandit turpis cursus in hac. Ut porttitor leo
+              a diam sollicitudin tempor id eu. Magnis dis parturient montes
+              nascetur ridiculus mus. Eget nunc lobortis mattis aliquam. Porta
+              lorem mollis aliquam ut. Habitant morbi tristique senectus et
+              netus et malesuada. Velit egestas dui id ornare arcu arcu felis
+              bibendum ut.
+            </p>
+            <div class="text-box mb-5">
+              <h3>Morbi quis commodo odio aenean sed adipiscing di</h3>
+              <p>
+                In nulla posuere sollicitudin aliquam. Purus in mollis nunc sed
+                id semper. Viverra adipiscing at in tellus integer feugiat. Orci
+                porta non pulvinar neque laoreet suspendisse interdum
+                consectetur. Nullam eget felis eget nunc lobortis mattis
+                aliquam. Diam in arcu cursus euismod quis viverra. Odio eu
+                feugiat pretium nibh ipsum. Curabitur vitae nunc sed velit
+                dignissim sodales ut. Quam pellentesque nec nam
+              </p>
+            </div>
+            <!-- end of text-box -->
+            <p class="mb-4">
+              Phasellus faucibus scelerisque eleifend donec pretium vulputate
+              sapien. Arcu odio ut sem nulla pharetra diam sit amet. Laoreet
+              suspendisse interdum consectetur libero id. Aliquet lectus proin
+              nibh nisl condimentum id venenatis. Nec feugiat nisl pretium fusce
+              id velit ut tortor. Justo laoreet sit amet cursus sit amet dictum
+              nulla at volutpat.
+            </p>
+            <ul class="list-unstyled li-space-lg mb-5">
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">
+                  <strong>In nulla pos</strong> quam pellentesque nece nam
+                  aliquam semr elit ut aliquam purus sit amet lorem ipsum
+                </div>
+              </li>
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">
+                  <strong>Uere solliudin aliqu</strong> luctus venenatis lectus
+                  magna phasellus faucibus scelerisque eleifend donec pretium
+                </div>
+              </li>
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">
+                  <strong>Nullam eget felis</strong> arcu odio ut sem nulla
+                  pharetra diam sit amet laoreet suspendisse interdum cons
+                </div>
+              </li>
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">
+                  <strong>Curabitur vitae</strong> id venenatis nec feugiat nisl
+                  pretium fusce id velit ut tortor justo laoreet sit amet
+                </div>
+              </li>
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">
+                  <strong>Sedro velit</strong> donec massa sapien faucibus et
+                  molestie. Arcu non odio euismod lacinia at quis
+                </div>
+              </li>
+            </ul>
 
-        <!-- Copyright -->
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p class="p-small">Copyright © Some name</p>
-                    </div> <!-- end of col -->
-                </div> <!-- enf of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of copyright --> 
-        <!-- end of copyright -->
-        
-            
-        <!-- Scripts -->
-        <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-        <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-        <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-        <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    </body>
+            <a class="btn-solid-reg mb-5" href="index.html#contact"
+              >Contact Us</a
+            >
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of ex-basic-1 -->
+    <!-- end of basic -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer-col first">
+              <h6>Lorem Ipsum</h6>
+              <p class="p-small">
+                Nibh ipsum consequat pharetra massa massa ultricies mi. Orci eu
+                lobortis elementum nibh tellus molestie. Sit amet aliquam id
+                diam maecenas
+              </p>
+            </div>
+            <!-- end of footer-col -->
+            <div class="footer-col second">
+              <h6>Links</h6>
+              <ul class="list-unstyled li-space-lg p-small">
+                <li>
+                  Important: <a href="terms.html">Terms & Conditions</a>,
+                  <a href="privacy.html">Privacy Policy</a>
+                </li>
+                <li>
+                  Useful: <a href="#">Colorpicker</a>,
+                  <a href="#">Icon Library</a>, <a href="#">Illustrations</a>
+                </li>
+                <li>
+                  Menu: <a class="page-scroll" href="#header">Home</a>,
+                  <a class="page-scroll" href="#details">Details</a>,
+                  <a class="page-scroll" href="#strengths">Strengths</a>,
+                  <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end of footer-col -->
+            <div class="footer-col third">
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x"></i>
+                </a>
+              </span>
+              <p class="p-small">
+                Nunc consequat interdum varius sit
+                <a href="mailto:contact@site.com"
+                  ><strong>contact@site.com</strong></a
+                >
+              </p>
+            </div>
+            <!-- end of footer-col -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of footer -->
+    <!-- end of footer -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small">Copyright © Some name</p>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- enf of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of copyright -->
+    <!-- end of copyright -->
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- Magnific Popup for lightboxes -->
+    <script src="js/scripts.js"></script>
+    <!-- Custom scripts -->
+  </body>
 </html>

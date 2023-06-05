@@ -584,6 +584,11 @@ input[type='checkbox'] {
 	margin-bottom: 2.75rem;
 }
 
+/* .image-container {
+	position: relative;
+	top: -150px;
+} */
+
 .header .text-container {
 	margin-bottom: 7rem;
 }
@@ -948,7 +953,7 @@ input[type='checkbox'] {
 .basic-7 {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
-	background: linear-gradient(to bottom right, #4b00d7, #fa4c50);
+	background: linear-gradient(to bottom right, #161e77, #2e1a1a);
 	text-align: center;
 }
 
